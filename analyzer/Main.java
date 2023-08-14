@@ -27,8 +27,9 @@ public class Main {
             findHighestPriorityPattern(filePath, patterns);
         } catch (IOException e) {
             System.out.println("Error reading patterns file: " + e.getMessage());
+
         }
-    }
+    }//Comment
 
     private static Map<Float, List<String>> readPatterns(String patternsFile) throws IOException {
         List<Float> floats = new ArrayList<>();
